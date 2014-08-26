@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+mtv.in.com	TRUE	/	FALSE	1999999999	PHPSESSID	ko3edfcr4nqhopanvhs6e96ok7
+.facebook.com	TRUE	/	FALSE	1999999999	datr	MwD8U55_3RPPrsBPwB_Kkzil
+

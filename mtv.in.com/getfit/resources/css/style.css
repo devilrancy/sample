@@ -1,0 +1,106 @@
+/* HTML Tags */
+img { border:0px }
+img a { border:0px }
+
+body
+	{ margin:0px; padding:0px; font:normal 13px Myriad-Pro, Arial, Helvetica, sans-serif; color:#333333; text-align:center; background:#fff }
+p
+	{ margin:0px 0px 15px 0px; line-height:150% }
+a
+	{ color:#333333; text-decoration:none }
+a:hover
+	{ color:#000000; text-decoration:underline }
+form
+	{ margin:0px; padding:0px }
+ul
+	{ margin:0px; padding:0px; list-style:none }
+li
+	{ margin:0px; padding:0px }
+
+h1, h2, h3, h4, h5, h6
+	{ margin:0px; padding:0px; font-size:13px; font-weight:normal }
+
+.FL { float:left } .FR { float:right } .CL { clear:both }
+.TAC { text-align:center } .TAR { text-align:right }
+
+.FS10 { font-size:10px } .FS11 { font-size:11px } .FS12 { font-size:12px } .FS13 { font-size:13px } .FS14 { font-size:14px }
+.FS15 { font-size:15px } .FS16 { font-size:16px } .FS17 { font-size:17px } .FS18 { font-size:18px } .FS19 { font-size:19px }
+
+.PA2 { padding:2px } .PT2 { padding-top:2px } .PR2 { padding-right:2px } .PB2 { padding-bottom:2px } .PL2 { padding-left:2px }
+.PA3 { padding:3px } .PT3 { padding-top:3px } .PR3 { padding-right:3px } .PB3 { padding-bottom:3px } .PL3 { padding-left:3px }
+.PA4 { padding:4px } .PT4 { padding-top:4px } .PR4 { padding-right:4px } .PB4 { padding-bottom:4px } .PL4 { padding-left:4px }
+.PA5 { padding:5px } .PT5 { padding-top:5px } .PR5 { padding-right:5px } .PB5 { padding-bottom:5px } .PL5 { padding-left:5px }
+.PA6 { padding:6px } .PT6 { padding-top:6px } .PR6 { padding-right:6px } .PB6 { padding-bottom:6px } .PL6 { padding-left:6px }
+.PA7 { padding:7px } .PT7 { padding-top:7px } .PR7 { padding-right:7px } .PB7 { padding-bottom:7px } .PL7 { padding-left:7px }
+.PA8 { padding:8px } .PT8 { padding-top:8px } .PR8 { padding-right:8px } .PB8 { padding-bottom:8px } .PL8 { padding-left:8px }
+.PA10 { padding:10px } .PT10 { padding-top:10px } .PR10 { padding-right:10px } .PB10 { padding-bottom:10px } .PL10 { padding-left:10px }
+.PA15 { padding:15px } .PT15 { padding-top:15px } .PR15 { padding-right:15px } .PB15 { padding-bottom:15px } .PL15 { padding-left:15px }
+.PA20 { padding:20px } .PT20 { padding-top:20px } .PR20 { padding-right:20px } .PB20 { padding-bottom:20px } .PL20 { padding-left:20px }
+.PA25 { padding:25px } .PT25 { padding-top:25px } .PR25 { padding-right:25px } .PB25 { padding-bottom:25px } .PL25 { padding-left:25px }
+.PA30 { padding:30px } .PT30 { padding-top:30px } .PR30 { padding-right:30px } .PB30 { padding-bottom:30px } .PL30 { padding-left:30px }
+.PA35 { padding:35px } .PT35 { padding-top:35px } .PR35 { padding-right:35px } .PB35 { padding-bottom:35px } .PL35 { padding-left:35px }
+.PA40 { padding:40px } .PT40 { padding-top:40px } .PR40 { padding-right:40px } .PB40 { padding-bottom:40px } .PL40 { padding-left:40px }
+.PA45 { padding:45px } .PT45 { padding-top:45px } .PR45 { padding-right:45px } .PB45 { padding-bottom:45px } .PL45 { padding-left:45px }
+.PA50 { padding:50px } .PT50 { padding-top:50px } .PR50 { padding-right:50px } .PB50 { padding-bottom:50px } .PL50 { padding-left:50px }
+
+.MA2 { margin:2px } .MT2 { margin-top:2px } .MR2 { margin-right:2px } .MB2 { margin-bottom:2px } .ML2 { margin-left:2px }
+.MA5 { margin:5px } .MT5 { margin-top:5px } .MR5 { margin-right:5px } .MB5 { margin-bottom:5px } .ML5 { margin-left:5px }
+.MA7 { margin:7px } .MT7 { margin-top:7px } .MR7 { margin-right:7px } .MB7 { margin-bottom:7px } .ML7 { margin-left:7px }
+.MA10 { margin:10px } .MT10 { margin-top:10px } .MR10 { margin-right:10px } .MB10 { margin-bottom:10px } .ML10 { margin-left:10px }
+.MA15 { margin:15px } .MT15 { margin-top:15px } .MR15 { margin-right:15px } .MB15 { margin-bottom:15px } .ML15 { margin-left:15px }
+.MA20 { margin:20px } .MT20 { margin-top:20px } .MR20 { margin-right:20px } .MB20 { margin-bottom:20px } .ML20 { margin-left:20px }
+
+
+
+/* Common classes */
+.main
+	{ width:1000px; margin:auto; text-align:left; position:relative }
+
+#intro
+	{ background:#47c7ea url(../images/skin-intro.html) no-repeat top center; height:940px }
+#episodes
+	{ background:#e62c2b url(../images/skin-episodes.html) no-repeat top center }
+#profile-gokul
+	{ background:#900; height:300px }
+#profile-brijesh
+	{ background:#963; height:300px }
+#profile-reddy
+	{ background:#393; height:300px }
+#profile-kd
+	{ background:#66C; height:300px }
+#profile-anuj
+	{ background:#0F3; height:300px }
+
+.footer
+	{ background:#333 }
+.footer h1
+	{ font-size:11px; color:#ddd; text-align:right; padding:14px 0px 13px 0px }
+
+/* Episodes */
+.epiCont
+	{ background:url(../images/bg-episodes.html) no-repeat; height:530px }
+.epiHeading
+	{ height:170px }
+.epiHeading h1
+	{ padding:18px 230px 10px 55px }
+.epiHeading h1 a
+	{ font-family:'futuramtvdemibold_italic'; font-size:24px; color:#e62c2b; text-transform:uppercase; line-height:125% }
+.epiHeading h1 a:hover
+	{ color:#39408a; text-decoration:none }
+.epiHeading h2
+	{ padding:0px 230px 0px 55px; font-family:Myriad-Pro, Arial, Helvetica, sans-serif; font-size:13px; color:#555; line-height:165% }
+.epiVideo
+	{ float:left; width:545px }
+.epiBtn
+	{ float:left; width:185px; padding-top:248px }
+
+
+
+
+
+.watch{width:180px;height:60px;background:url('../images/watch.html') no-repeat scroll top center transparent ;}
+.watch:hover{background-position:center -60px;}
+.videoframe{width:520px;height:300px;background:url('../images/violet.html') no-repeat scroll top center transparent ;padding:0px 8px 8px 0px;}
+.videoframeinner{width:500px;height:280px;background-color:#39408a;position:relative;padding:10px;}
+.play{width:37px;height:37px;background:url('../images/play.html') no-repeat scroll center center transparent ;position:absolute;bottom:20px;left:20px;}
+.videoframe:hover{padding:8px 0px 0px 8px;background:url('') no-repeat scroll top center transparent ;}
