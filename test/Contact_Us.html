@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Royal News</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
+  <script type="text/javascript" src="js/viewport.js"></script>
+
+  <!-- jQuery Form Plugin start -->
+  <script type="text/javascript" src="js/jquery.form.js"></script>
+  <!-- jQuery Form Plugin end -->
+
+  <script type="text/javascript" src="js/script.js"></script>    
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script src="js/infobox.js" type="text/javascript"></script>
+  <script type="text/javascript">
+		function initialize() {
+		  var myLatlng = new google.maps.LatLng(46.92025, 3.90559);
+		  var mapOptions = {
+			zoom: 11,
+			center: myLatlng
+		  };
+
+		  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+		  var image = new google.maps.MarkerImage('../andrievskiydmitriy.com/royalnews/img/lp.png',      
+		  new google.maps.Size(45, 52),      
+				new google.maps.Point(0,0),      
+				new google.maps.Point(0, 32));  
+
+		  var marker = new google.maps.Marker({
+				 map: map,
+				 draggable: true,
+				 icon: image, 
+				 position: new google.maps.LatLng(46.12025, 3.40559),
+				 visible: true
+				});
+
+				var boxText = document.createElement("div");
+				boxText.style.cssText = "margin-top: 8px; background:#fff; padding: 10px 10px 10px 10px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -webkit-box-shadow: 0px 0px 4px rgba(50, 50, 50, 0.19); -moz-box-shadow: 0px 0px 4px rgba(50, 50, 50, 0.19); box-shadow: 0px 0px 4px rgba(50, 50, 50, 0.19);";
+				boxText.innerHTML = "<div class='infoBoxLabel'>Contact info:</div><div class='infoBoxTxt'>France, Paris, Gover Street 14/3 </div>";
+
+				var Options = {
+						 content: boxText
+						,disableAutoPan: false
+						,maxWidth: 0
+						,pixelOffset: new google.maps.Size(56, -48)
+						,zIndex: null
+						,boxStyle: { 
+						  background: "url('tipbox.gif') no-repeat"
+						  ,width: "211px"
+						  ,height: "61px"
+						 }
+						,closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif"
+						,infoBoxClearance: new google.maps.Size(1, 1)
+						,isHidden: false
+						,pane: "floatPane"
+						,enableEventPropagation: false
+				};
+
+				var ib = new InfoBox(Options);
+				ib.open(map, marker);
+		}
+		google.maps.event.addDomListener(window, 'resize', initialize);
+		google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>  
+<body>  
+
+<div class="main-cont">
+
+<!-- // header // -->
+<div class="header">
+  <div class="header-a"></div>
+</div>
+<!-- \\ header \\ -->
+
+<div class="conteiner1">
+<!-- // left col // -->
+<div class="left-col">
+  <a href="index-2.html" class="head-logo"><img src="img/logo.png" alt="" /></a>
+  <a href="index-2.html" class="header-logo-small"><img src="img/logo-b.jpg" alt="" /></a>
+  <a href="index-2.html" class="header-logo-small-a"><img src="img/logo-c.jpg" alt="" /></a>  
+  <a href="index-2.html" class="header-logo-retina"><img src="img/retina/logo-retina.png" alt="" /></a>
+  
+  <a href="#" class="l-menu-open"></a>
+  <div class="left-coll-a">
+    <a href="#" class="l-menu-hide"></a>
+    <!-- // left menu start // -->
+    <div class="left-c-menu">
+      <ul>
+        <li><a href="index-2.html">Home Page</a></li>
+        <li><a href="Category_Fashion.html">Fashion</a></li>
+        <li><a href="Category_Life.html">Life</a></li>
+        <li><a href="Category_Photography.html">Photography</a></li>
+        <li><a href="Category_Inspiration.html">Inspiration</a></li>
+        <li><a href="Category_Video.html">Video</a></li>
+        <li><a href="Category_Reviews.html">Reviews</a></li>
+      </ul>
+    </div>
+    <div class="left-c-menu">
+      <ul>
+        <li class="has-child"><a href="#">Categories</a>
+          <ul>
+            <li><a href="Category_Fashion.html">Fashion</a></li>
+            <li><a href="Category_Life.html">Life</a></li>
+            <li><a href="Category_Photography.html">Photography</a></li>
+            <li><a href="Category_Inspiration.html">Inspiration</a></li>
+            <li><a href="Category_Video.html">Video</a></li>
+            <li><a href="Category_Reviews.html">Reviews</a></li>
+          </ul>
+        </li>
+        <li class="has-child"><a href="#">Posts</a>
+          <ul>
+            <li><a href="Standart_Post.html">Standart Post</a></li>
+            <li><a href="Gallery_Post_Format.html">Gallery Post Format</a></li>
+            <li><a href="Video_Post_Format.html">Video Post Format</a></li>
+            <li><a href="Modify_Post_Format.html">Modify Post Format</a></li>
+            <li><a href="Reviews_Star_Style.html">Reviews Star Style</a></li>
+            <li><a href="Reviews_Points_Style.html">Reviews Points Style</a></li>
+            <li><a href="Full_Width_Post_Format.html">Full Width Post Format</a></li>
+          </ul>
+        </li>
+        <li class="has-child"><a href="#">Pages</a>
+          <ul>
+            <li><a href="Contact_Us.html">Contact Us</a></li>
+            <li><a href="About_Author.html">About Author</a></li>
+            <li><a href="404_Page.html">404 Page</a></li>
+            <li><a href="Search_Results.html">Search Results</a></li>
+            <li><a href="Archives.html">Archives</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+          </ul>
+        </li>
+        <li class="has-child"><a href="#">Features</a>
+          <ul>
+            <li><a href="Typography.html">Typography</a></li>
+            <li><a href="Columns.html">Columns</a></li>
+            <li><a href="Shortcodes.html">Shortcodes</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- \\ left menu end \\ -->
+    
+    <div class="left-c-devider"></div>
+     
+    <!-- // twitter start // -->
+    <div class="left-c-lbl">Twitter widget</div>
+    <div class="block_twitter">
+		<div id="js_side_tweets" class="tweets"></div>
+		
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery('#js_side_tweets').tweet({
+					username : 'WebLionMedia',
+					modpath : '/js/twitter/',
+					count : 2,
+					loading_text : 'Loading twitter feed...',
+					template : '{user} {text}{time}'
+				});
+			});
+		</script>
+	</div>
+    <!-- \\ twitter end \\ -->
+  </div>
+</div>
+<!-- \\ left col \\ -->
+
+<!-- \\\center col\\\ -->
+<div class="center-col">
+  <div class="center-col-b">
+    <div class="padding">
+      <div class="main-content">
+      
+        <div class="main-content-a">
+          <!-- // page header start // --> 
+          <div class="page-header">
+            <div class="page-header-date">Monday 25th 2013</div>
+            <div class="page-header-search">
+              <input type="text" value="Search" />
+              <input type="submit" value="" />
+              <div class="clear"></div>
+            </div>
+            <div class="page-header-subscribe">
+              <span>Subscribe</span>
+              <a href="#" class="subscribe-twitter"></a>
+              <a href="#" class="subscribe-facebook"></a>
+              <a href="#" class="subscribe-pinterest"></a>
+              <a href="#" class="subscribe-googleplus"></a>
+              <a href="#" class="subscribe-instagram"></a>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <!-- \\ page header end \\ -->
+
+          <div class="page-heading">
+            <div class="label-a">Contact Us</div>
+            <div class="breadcrumbs">
+              <a href="index-2.html">Home</a> &rarr; <span>Contact Us</span>
+            </div>
+            <div class="clear"></div>
+          </div>
+          
+          <!-- // category content start // -->
+          <div class="category-page full-width-post">
+            <div class="category-page-text">
+              <div class="contact-map">
+                <div  id="map-canvas"></div>
+              </div>
+              <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore. Veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+              <div class="contact-info">
+                <b>Tel:</b> +13 7995478 / +13 211481276<br />
+                <b>Mail:</b> info@jupitertheme.com
+              </div>
+            </div>
+            
+            <div class="contact-form">
+            <div class="comments-lbl">Send Message</div>
+			<form id="contact_form" method="post" action="http://royalnews-html.weblionmedia.com/php/contact_form.php">
+				 <div class="form">
+				  <div class="form-line">
+					<label>Name <b>*</b></label>
+					<input type="text" id="User" name="User" value="" class="req" />
+				  </div>
+				  <div class="form-line">
+					<label>Email <b>*</b></label>
+					<input type="text" id="Email" name="Email" value="" class="req" />
+				  </div>
+				  <div class="form-line nth">
+					<label>Subject</label>
+					<input type="text" id="Subject" name="Subject" value="" />
+				  </div>
+				  <div class="clear"></div>
+				  <div class="form-line textarea">
+					<label>Comment <b>*</b></label>
+					<textarea cols="1" rows="1" id="Comment" name="Comment" class="req"></textarea>
+				  </div>
+				  <div class="clear"></div>
+				  <button class="form-submit">Send message</button>
+				 </div>
+			</form>
+			<script type="text/javascript">
+				$(function () {
+					$('#contact_form').ajaxForm({
+						beforeSubmit : function() {return init_validation('#contact_form');},
+						success : function() {
+							alert('Your message has been sent!');
+							$('#contact_form').resetForm();
+						}
+					});
+				});
+			</script>
+            </div>
+                         
+            <div class="clear"></div>
+          </div>
+          <!-- // category content end // -->
+          
+        </div>
+        
+        <!-- // content footer start // -->
+        <div class="content-footer">
+          <div class="content-footer-a">
+            <div class="content-footer-l">
+              <div class="content-footer-lbl">About the mag</div>
+              <div class="content-footer-txt"><b>RoyalNews</b> is your news, entertainment, inspiration, fashion website. We provide you with the lates news and videos straight from the news industry.</div>
+              <div class="content-footer-subscribe">
+                <a href="#" class="subscribe-twitter"></a>
+                <a href="#" class="subscribe-facebook"></a>
+                <a href="#" class="subscribe-pinterest"></a>
+                <a href="#" class="subscribe-googleplus"></a>
+                <a href="#" class="subscribe-instagram"></a>              
+              </div>            
+            </div>
+            <div class="content-footer-c">
+              <div class="content-footer-lbl">Featured posts</div>
+              <div class="featured-row">
+                <!-- // -->
+                <div class="featured-i">
+                  <div class="featured-l">
+                    <a href="#"><img src="img/featured-01.jpg" alt="" /></a>
+                  </div>
+                  <div class="featured-r">
+                    <a href="#">Neque porro quisquam est, qui dolorem.</a>
+                    <span class="featured-date">27.05.2013</span>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="featured-i">
+                  <div class="featured-l">
+                    <a href="#"><img src="img/featured-02.jpg" alt="" /></a>
+                  </div>
+                  <div class="featured-r">
+                    <a href="#">Qsit amet, consectetur, adipisci.</a>
+                    <span class="featured-date">27.05.2013</span>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="featured-i">
+                  <div class="featured-l">
+                    <a href="#"><img src="img/featured-03.jpg" alt="" /></a>
+                  </div>
+                  <div class="featured-r">
+                    <a href="#">Sed quia non numquam eius modi tempora.</a>
+                    <span class="featured-date">27.05.2013</span>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+              </div> 
+            </div>
+            <div class="content-footer-r">
+              <div class="content-footer-lbl">Newsletter</div>
+              <div class="content-footer-txt">Sign up for our mailing list to stay updated latest news from RoyalNews</div>
+              <div class="newsletter">
+                <input type="text" value="ENTER YOUR EMAIL" />
+                <button>SUBSCRIBE</button>
+              </div>
+            </div>
+            <div class="clear"></div> 
+          </div>
+        </div>
+        
+        <div class="content-footer-d">
+          <div class="footer-copy-l">&copy; Copyrights 2013. Powered by Wordpress</div>
+          <div class="footer-copy-r">
+            <a href="#"><img src="img/footer-logo.gif" alt="" /></a>          
+            <span>Theme by weblionmedia</span>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <!-- \\ content footer end \\ -->
+                
+      </div>
+      
+      <!-- // right-coll start // -->
+      <div class="right-coll">
+        <div class="page-lbl">Recent news</div>
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-01.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Fashion</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Neque porro quisquam est qui dolo.</a></div>
+          </div>
+        <!-- \\ -->
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-02.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Life</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Vitae dicta sunt expli- cabo emo.</a></div>
+          </div>
+        <!-- \\ -->
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-03.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Fashion</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Magni dolores eos qui retione.</a></div>
+          </div>
+        <!-- \\ -->
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-04.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Main news</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Aspernatur aut odit aut fugit, sed quia.</a></div>
+          </div>
+        <!-- \\ -->
+      </div>
+      <!-- // right-coll end // -->
+      
+      <div class="clear"></div>
+      
+    </div>
+  </div>
+  <br class="clear" />
+</div>
+<!-- ///center col/// -->
+
+</div>
+<!-- /conteiner1 -->
+
+  <br class="clear none" />
+</div>
+<!-- /main-cont -->
+
+</body>  
+</html> 

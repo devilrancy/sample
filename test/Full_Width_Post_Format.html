@@ -1,0 +1,569 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Royal News</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
+  <script type="text/javascript" src="js/viewport.js"></script>  
+  <script type="text/javascript" src="js/bxSlider.js"></script>   
+  <script type="text/javascript">
+  setTimeout(function() {   
+    $(function(){
+      $('#popular-slider').bxSlider({
+        slideWidth: 287,
+        speed: 1200,
+        pause: 6500,
+        minSlides: 1,
+        maxSlides: 3,
+        moveSlides: 3,
+        auto: true,
+        slideMargin: 19      
+      });
+    });
+    $(function(){
+      $('.article-slider-a').bxSlider({
+        speed: 600,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        auto: false,
+        slideMargin: 0     
+      });
+    }); 
+    $(function(){
+      $('.category-slider-holder').bxSlider({
+        speed: 800,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        auto: true,
+        slideMargin: 0     
+      });
+    });    
+    },50);       
+  </script>
+  <script type="text/javascript" src="js/script.js"></script>       
+</head>  
+<body>  
+
+<div class="main-cont">
+
+<!-- // header // -->
+<div class="header">
+  <div class="header-a"></div>
+</div>
+<!-- \\ header \\ -->
+
+<div class="conteiner1">
+<!-- // left col // -->
+<div class="left-col">
+  <a href="index-2.html" class="head-logo"><img src="img/logo.png" alt="" /></a>
+  <a href="index-2.html" class="header-logo-small"><img src="img/logo-b.jpg" alt="" /></a>
+  <a href="index-2.html" class="header-logo-small-a"><img src="img/logo-c.jpg" alt="" /></a>  
+  <a href="index-2.html" class="header-logo-retina"><img src="img/retina/logo-retina.png" alt="" /></a>
+  
+  <a href="#" class="l-menu-open"></a>
+  <div class="left-coll-a">
+    <a href="#" class="l-menu-hide"></a>
+    <!-- // left menu start // -->
+    <div class="left-c-menu">
+      <ul>
+        <li><a href="index-2.html">Home Page</a></li>
+        <li><a href="Category_Fashion.html">Fashion</a></li>
+        <li><a href="Category_Life.html">Life</a></li>
+        <li><a href="Category_Photography.html">Photography</a></li>
+        <li><a href="Category_Inspiration.html">Inspiration</a></li>
+        <li><a href="Category_Video.html">Video</a></li>
+        <li><a href="Category_Reviews.html">Reviews</a></li>
+      </ul>
+    </div>
+    <div class="left-c-menu">
+      <ul>
+        <li class="has-child"><a href="#">Categories</a>
+          <ul>
+            <li><a href="Category_Fashion.html">Fashion</a></li>
+            <li><a href="Category_Life.html">Life</a></li>
+            <li><a href="Category_Photography.html">Photography</a></li>
+            <li><a href="Category_Inspiration.html">Inspiration</a></li>
+            <li><a href="Category_Video.html">Video</a></li>
+            <li><a href="Category_Reviews.html">Reviews</a></li>
+          </ul>
+        </li>
+        <li class="has-child"><a href="#">Posts</a>
+          <ul>
+            <li><a href="Standart_Post.html">Standart Post</a></li>
+            <li><a href="Gallery_Post_Format.html">Gallery Post Format</a></li>
+            <li><a href="Video_Post_Format.html">Video Post Format</a></li>
+            <li><a href="Modify_Post_Format.html">Modify Post Format</a></li>
+            <li><a href="Reviews_Star_Style.html">Reviews Star Style</a></li>
+            <li><a href="Reviews_Points_Style.html">Reviews Points Style</a></li>
+            <li><a href="Full_Width_Post_Format.html">Full Width Post Format</a></li>
+          </ul>
+        </li>
+        <li class="has-child"><a href="#">Pages</a>
+          <ul>
+            <li><a href="Contact_Us.html">Contact Us</a></li>
+            <li><a href="About_Author.html">About Author</a></li>
+            <li><a href="404_Page.html">404 Page</a></li>
+            <li><a href="Search_Results.html">Search Results</a></li>
+            <li><a href="Archives.html">Archives</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+          </ul>
+        </li>
+        <li class="has-child"><a href="#">Features</a>
+          <ul>
+            <li><a href="Typography.html">Typography</a></li>
+            <li><a href="Columns.html">Columns</a></li>
+            <li><a href="Shortcodes.html">Shortcodes</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- \\ left menu end \\ -->
+    
+    <div class="left-c-devider"></div>
+     
+    <!-- // twitter start // -->
+    <div class="left-c-lbl">Twitter widget</div>
+    <div class="block_twitter">
+		<div id="js_side_tweets" class="tweets"></div>
+		
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery('#js_side_tweets').tweet({
+					username : 'WebLionMedia',
+					modpath : '/js/twitter/',
+					count : 2,
+					loading_text : 'Loading twitter feed...',
+					template : '{user} {text}{time}'
+				});
+			});
+		</script>
+	</div>
+    <!-- \\ twitter end \\ -->
+  </div>
+</div>
+<!-- \\ left col \\ -->
+
+<!-- \\\center col\\\ -->
+<div class="center-col">
+  <div class="center-col-b">
+    <div class="padding">
+      <div class="main-content">
+      
+        <div class="main-content-a">
+          <!-- // page header start // --> 
+          <div class="page-header">
+            <div class="page-header-date">Monday 25th 2013</div>
+            <div class="page-header-search">
+              <input type="text" value="Search" />
+              <input type="submit" value="" />
+              <div class="clear"></div>
+            </div>
+            <div class="page-header-subscribe">
+              <span>Subscribe</span>
+              <a href="#" class="subscribe-twitter"></a>
+              <a href="#" class="subscribe-facebook"></a>
+              <a href="#" class="subscribe-pinterest"></a>
+              <a href="#" class="subscribe-googleplus"></a>
+              <a href="#" class="subscribe-instagram"></a>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <!-- \\ page header end \\ -->
+
+          <div class="page-heading">
+            <div class="label-a">Reviews</div>
+            <div class="breadcrumbs">
+              <a href="index-2.html">Home</a> &rarr; <a href="#">Reviews</a> &rarr; <span>Full Width Post Format</span>
+            </div>
+            <div class="clear"></div>
+          </div>
+          
+          <!-- // category content start // -->
+          <div class="category-page full-width-post">
+
+              <div class="article-category categoty-photography">
+                <a href="#">Inspiration</a> - By <a href="#">Stiven Rojers</a>  - <span class="post-date">27.05.2013</span>
+                <div class="article-likes">
+                  <a class="post-comments" href="#">22</a>
+                  <a class="post-likes" href="#">12</a>                
+                </div>
+                <div class="clear"></div>
+              </div>
+              
+              <div class="category-page-title-a">Full Width Post Format</div>
+              
+              <div class="category-image full-width-post">
+                <img src="img/pic_full_1.jpg" alt="" />
+              </div>
+                    
+              <div class="category-page-text">
+                <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore. Veritatis et <a href="#">quasi architecto beatae</a> vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, inventore veritatis et quasi architecto beatae</p>
+                <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore. Veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <h5>Small Heading</h5>
+                <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore. Veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <!-- // post related start // -->
+                <div class="post-related">
+                  <div class="post-related-a">You may also like</div>  
+                  <div class="post-related-b">
+                    <div class="post-related-i">
+                      <div class="post-related-l">
+                        <a href="#"><img src="img/related.gif" alt="" /></a>
+                      </div>
+                      <div class="post-related-r">
+                        <a class="post-related-lbl" href="#">Magni dolores eos qui ratione volup.</a>
+                        <div class="post-related-txt">Totam rem aperiam, inventore veritatis et quasi accusantium</div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>                
+                <!-- \\ post related start \\ -->
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Sed ut perspiciatis <a href="#">unde omnis iste natus</a> error sit voluptatem accusantium doloremque Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>   
+                <p>Laudantium, totam rem aperiam, inventore veritatis et quasi architecto beatae Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Perspiciatis voluptas sit aspernatur aut odit aut fugit unde omnis iste natus error sit voluptatem Perspiciatis unde omnis iste natus error sit voluptatem</p>
+                <div class="clear"></div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium omnis iste natus error sit voluptatem accusantium doloremque laudantium, laudantium omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, inventore veritatis et quasi architecto beatae</p>
+                
+              </div>  
+              
+              <div class="page-devider"></div>
+             
+              <div class="tags-row page-tags">
+                <a href="#">News</a>
+                <a href="#">Fashion</a>
+                <a href="#">People</a>
+                <a href="#">Photo</a>                
+              </div>
+              
+              <div class="page-social">
+                <a href="#" class="article-social-twitter"></a>
+                <a href="#" class="article-social-facebook"></a>
+                <a href="#" class="article-social-pinterest"></a>
+                <a href="#" class="article-social-googleplus"></a>
+                <a href="#" class="article-social-instagram"></a>
+              </div>
+              
+              <div class="clear"></div>
+             
+             <div class="page-devider"></div>
+             
+             <!-- // page-author start // -->
+             <div class="page-author">
+              <a class="page-author-pic" href="#"><img src="img/userpic-04.jpg" alt="" /></a>
+              <div class="page-author-about">
+                <div class="page-author-lbl">
+                  <a href="#">Stiven Rojers</a>
+                </div>
+                <div class="page-author-txt">
+                  Eaque ipsa quae ab illo inventore. Veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                </div>
+                <div class="page-author-social">
+                  <a href="#">Twitter</a>
+                  <a href="#">Facebook</a>
+                  <a href="#">Google+</a>
+                </div>
+              </div>
+              <div class="clear"></div> 
+             </div>
+             <!-- // page-author end // -->
+             
+             <div class="post-controls">
+              <a href="#" class="post-controls-prev">
+                <span class="post-controls-arrow"></span>
+                <span class="post-controls-a">Previous article</span>
+                <span class="post-controls-b">Gallery post format</span>
+              </a>
+              <a href="#" class="post-controls-next">
+                <span class="post-controls-arrow"></span>
+                <span class="post-controls-a">Next article</span>
+                <span class="post-controls-b">Video post format</span>              
+              </a>
+              <div class="clear"></div> 
+             </div>
+             
+             <!-- // maeterials slider start // -->
+             <div class="materials-slider-inner materials-slider-no-padding">
+               <div class="materials-slider">
+                 <div class="materials-devider"></div>
+                 <div class="materials-slider-lbl">Related posts</div>
+                 <div id="popular-slider">
+                   <!-- // -->
+                   <div class="materials-item">
+                      <div class="materials-item-a">
+                        <div class="articles-post">
+                          <div class="article-category">
+                            <a href="#">Main News</a> - 27.05.2013
+                            <a href="#" class="post-info post-comments">22</a>
+                            <a href="#" class="post-info post-likes">12</a>
+                          </div>
+                          <a href="#" class="article-image"><img src="img/article-35.jpg" alt="" /></a>
+                          <div class="article-title"><a href="#">Sed ut perspiciatis unde omnis iste natus volup.</a></div>
+                        </div>             
+                      </div>
+                    </div>
+                    <!-- \\ -->
+                    <!-- // -->
+                    <div class="materials-item">
+                      <div class="materials-item-a">
+                        <div class="articles-post">
+                          <div class="article-category">
+                            <a href="#">Photography</a> - 27.05.2013
+                            <a href="#" class="post-info post-comments">22</a>
+                            <a href="#" class="post-info post-likes">12</a>
+                          </div>
+                          <a href="#" class="article-image"><img src="img/article-34.jpg" alt="" /></a>
+                          <div class="article-title"><a href="#">Totam rem aperiam, eaque ipsa quae ab illo invertore veritatis.</a></div>
+                        </div>             
+                      </div>
+                    </div>
+                    <!-- \\ -->
+                    <!-- // -->
+                    <div class="materials-item">
+                      <div class="materials-item-a">
+                        <div class="articles-post">
+                          <div class="article-category">
+                            <a href="#">Video</a> - 27.05.2013
+                            <a href="#" class="post-info post-comments">22</a>
+                            <a href="#" class="post-info post-likes">12</a>
+                          </div>
+                          <a href="#" class="article-image"><img src="img/article-20.jpg" alt="" /></a>
+                          <div class="article-title"><a href="#">Sed ut perspiciatis unde omnis iste natus volup..</a></div>
+                        </div>             
+                      </div>
+                    </div>
+                    <!-- \\ -->
+                  </div>
+                </div>
+             </div>    
+             <!-- \\ maeterials slider end \\ -->             
+             
+             <div class="page-devider"></div>
+             
+             
+             <!-- // comments start // -->
+              <div class="comments">
+                <div class="comments-lbl">Comments</div>
+                <!-- // -->
+                <div class="comment-item">
+                  <div class="comment-l">
+                    <a href="#"><img src="img/userpic-06.gif" alt="" /></a>
+                  </div>
+                  <div class="comment-r">
+                    <div class="comment-user"><a href="#">Roman Polyarush</a></div>
+                    <div class="comment-date">October 24, 2013</div>
+                    <div class="comment-txt">Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque unde omnis iste natus error laudantium</div>
+                    <a href="#" class="comment-btn">Reply</a>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="comment-item">
+                  <div class="comment-l">
+                    <a href="#"><img src="img/userpic-03.gif" alt="" /></a>
+                  </div>
+                  <div class="comment-r">
+                    <div class="comment-user"><a href="#">Sara Roberts</a></div>
+                    <div class="comment-date">October 24, 2013</div>
+                    <div class="comment-txt">Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque unde omnis iste natus error laudantium</div>
+                    <a href="#" class="comment-btn">Reply</a>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="comment-item reply-item">
+                  <div class="comment-l">
+                    <a href="#"><img src="img/userpic-04.gif" alt="" /></a>
+                  </div>
+                  <div class="comment-r">
+                    <div class="comment-user"><a href="#">Alex Dowson</a></div>
+                    <div class="comment-date">October 24, 2013</div>
+                    <div class="comment-txt">Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque unde omnis iste natus error laudantium</div>
+                    <a href="#" class="comment-btn">Reply</a>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="comment-item">
+                  <div class="comment-l">
+                    <a href="#"><img src="img/userpic-03.gif" alt="" /></a>
+                  </div>
+                  <div class="comment-r">
+                    <div class="comment-user"><a href="#">Erick Willson</a></div>
+                    <div class="comment-date">October 24, 2013</div>
+                    <div class="comment-txt">Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque unde omnis iste natus error laudantium</div>
+                    <a href="#" class="comment-btn">Reply</a>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+              </div>              
+             <!-- \\ comments start \\ -->
+             
+             <!-- // live comment start // -->
+             <div class="comments-lbl">Live comment</div>
+             <div class="form">
+              <div class="form-line">
+                <label>Name <b>*</b></label>
+                <input type="text" value="" />
+              </div>
+              <div class="form-line">
+                <label>Email <b>*</b></label>
+                <input type="text" value="" />
+              </div>
+              <div class="form-line">
+                <label>Website <b>*</b></label>
+                <input type="text" value="" />
+              </div>
+              <div class="form-line">
+                <label>Comment <b>*</b></label>
+                <textarea cols="1" rows="1"></textarea>
+              </div>
+              <button class="form-submit">Submit comment</button>
+             </div>
+             <!-- \\ live comment start \\ -->
+
+            <div class="clear"></div>
+          </div>
+          <!-- // category content end // -->
+          
+        </div>
+        
+        <!-- // content footer start // -->
+        <div class="content-footer">
+          <div class="content-footer-a">
+            <div class="content-footer-l">
+              <div class="content-footer-lbl">About the mag</div>
+              <div class="content-footer-txt"><b>RoyalNews</b> is your news, entertainment, inspiration, fashion website. We provide you with the lates news and videos straight from the news industry.</div>
+              <div class="content-footer-subscribe">
+                <a href="#" class="subscribe-twitter"></a>
+                <a href="#" class="subscribe-facebook"></a>
+                <a href="#" class="subscribe-pinterest"></a>
+                <a href="#" class="subscribe-googleplus"></a>
+                <a href="#" class="subscribe-instagram"></a>              
+              </div>            
+            </div>
+            <div class="content-footer-c">
+              <div class="content-footer-lbl">Featured posts</div>
+              <div class="featured-row">
+                <!-- // -->
+                <div class="featured-i">
+                  <div class="featured-l">
+                    <a href="#"><img src="img/featured-01.jpg" alt="" /></a>
+                  </div>
+                  <div class="featured-r">
+                    <a href="#">Neque porro quisquam est, qui dolorem.</a>
+                    <span class="featured-date">27.05.2013</span>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="featured-i">
+                  <div class="featured-l">
+                    <a href="#"><img src="img/featured-02.jpg" alt="" /></a>
+                  </div>
+                  <div class="featured-r">
+                    <a href="#">Qsit amet, consectetur, adipisci.</a>
+                    <span class="featured-date">27.05.2013</span>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="featured-i">
+                  <div class="featured-l">
+                    <a href="#"><img src="img/featured-03.jpg" alt="" /></a>
+                  </div>
+                  <div class="featured-r">
+                    <a href="#">Sed quia non numquam eius modi tempora.</a>
+                    <span class="featured-date">27.05.2013</span>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+              </div> 
+            </div>
+            <div class="content-footer-r">
+              <div class="content-footer-lbl">Newsletter</div>
+              <div class="content-footer-txt">Sign up for our mailing list to stay updated latest news from RoyalNews</div>
+              <div class="newsletter">
+                <input type="text" value="ENTER YOUR EMAIL" />
+                <button>SUBSCRIBE</button>
+              </div>
+            </div>
+            <div class="clear"></div> 
+          </div>
+        </div>
+        
+        <div class="content-footer-d">
+          <div class="footer-copy-l">&copy; Copyrights 2013. Powered by Wordpress</div>
+          <div class="footer-copy-r">
+            <a href="#"><img src="img/footer-logo.gif" alt="" /></a>          
+            <span>Theme by weblionmedia</span>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <!-- \\ content footer end \\ -->
+                
+      </div>
+      
+      <!-- // right-coll start // -->
+      <div class="right-coll">
+        <div class="page-lbl">Recent news</div>
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-01.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Fashion</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Neque porro quisquam est qui dolo.</a></div>
+          </div>
+        <!-- \\ -->
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-02.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Life</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Vitae dicta sunt expli- cabo emo.</a></div>
+          </div>
+        <!-- \\ -->
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-03.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Fashion</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Magni dolores eos qui retione.</a></div>
+          </div>
+        <!-- \\ -->
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-04.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Main news</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Aspernatur aut odit aut fugit, sed quia.</a></div>
+          </div>
+        <!-- \\ -->
+      </div>
+      <!-- // right-coll end // -->
+      
+      <div class="clear"></div>
+      
+    </div>
+  </div>
+  <br class="clear" />
+</div>
+<!-- ///center col/// -->
+
+</div>
+<!-- /conteiner1 -->
+
+  <br class="clear none" />
+</div>
+<!-- /main-cont -->
+
+</body>  
+</html> 

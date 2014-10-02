@@ -1,0 +1,642 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Royal News</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
+  <script type="text/javascript" src="js/viewport.js"></script>  
+  <script type="text/javascript" src="js/bxSlider.js"></script>   
+  <script type="text/javascript">
+  setTimeout(function() {  
+    $(function(){
+      $('#popular-slider').bxSlider({
+        slideWidth: 287,
+        speed: 1200,
+        pause: 6500,
+        minSlides: 3,
+        maxSlides: 3,
+        moveSlides: 3,
+        auto: true,
+        slideMargin: 19      
+      });
+    });
+    $(function(){
+      $('.article-slider-a').bxSlider({
+        speed: 600,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        auto: false,
+        slideMargin: 0     
+      });
+    });   
+    },50);     
+  </script>
+  <script type="text/javascript" src="js/script.js"></script>       
+</head>  
+<body>  
+
+<div class="main-cont">
+
+<!-- // header // -->
+<div class="header">
+  <div class="header-a"></div>
+</div>
+<!-- \\ header \\ -->
+
+<div class="conteiner1">
+<!-- // left col // -->
+<div class="left-col">
+  <a href="index-2.html" class="head-logo"><img src="img/logo.png" alt="" /></a>
+  <a href="index-2.html" class="header-logo-small"><img src="img/logo-b.jpg" alt="" /></a>
+  <a href="index-2.html" class="header-logo-small-a"><img src="img/logo-c.jpg" alt="" /></a>
+  <a href="index-2.html" class="header-logo-retina"><img src="img/retina/logo-retina.png" alt="" /></a>
+    
+  <a href="#" class="l-menu-open"></a>
+  <div class="left-coll-a">
+    <a href="#" class="l-menu-hide"></a>
+    <!-- // left menu start // -->
+    <div class="left-c-menu">
+      <ul>
+        <li><a href="index-2.html">Home Page</a></li>
+        <li><a href="Category_Fashion.html">Fashion</a></li>
+        <li><a href="Category_Life.html">Life</a></li>
+        <li><a href="Category_Photography.html">Photography</a></li>
+        <li><a href="Category_Inspiration.html">Inspiration</a></li>
+        <li><a href="Category_Video.html">Video</a></li>
+        <li><a href="Category_Reviews.html">Reviews</a></li>
+      </ul>
+    </div>
+    <div class="left-c-menu">
+      <ul>
+        <li class="has-child"><a href="#">Categories</a>
+          <ul>
+            <li><a href="Category_Fashion.html">Fashion</a></li>
+            <li><a href="Category_Life.html">Life</a></li>
+            <li><a href="Category_Photography.html">Photography</a></li>
+            <li><a href="Category_Inspiration.html">Inspiration</a></li>
+            <li><a href="Category_Video.html">Video</a></li>
+            <li><a href="Category_Reviews.html">Reviews</a></li>
+          </ul>
+        </li>
+        <li class="has-child"><a href="#">Posts</a>
+          <ul>
+            <li><a href="Standart_Post.html">Standart Post</a></li>
+            <li><a href="Gallery_Post_Format.html">Gallery Post Format</a></li>
+            <li><a href="Video_Post_Format.html">Video Post Format</a></li>
+            <li><a href="Modify_Post_Format.html">Modify Post Format</a></li>
+            <li><a href="Reviews_Star_Style.html">Reviews Star Style</a></li>
+            <li><a href="Reviews_Points_Style.html">Reviews Points Style</a></li>
+            <li><a href="Full_Width_Post_Format.html">Full Width Post Format</a></li>
+          </ul>
+        </li>
+        <li class="has-child"><a href="#">Pages</a>
+          <ul>
+            <li><a href="Contact_Us.html">Contact Us</a></li>
+            <li><a href="About_Author.html">About Author</a></li>
+            <li><a href="404_Page.html">404 Page</a></li>
+            <li><a href="Search_Results.html">Search Results</a></li>
+            <li><a href="Archives.html">Archives</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+          </ul>
+        </li>
+        <li class="has-child"><a href="#">Features</a>
+          <ul>
+            <li><a href="Typography.html">Typography</a></li>
+            <li><a href="Columns.html">Columns</a></li>
+            <li><a href="Shortcodes.html">Shortcodes</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- \\ left menu end \\ -->
+    
+    <div class="left-c-devider"></div>
+     
+    <!-- // twitter start // -->
+    <div class="left-c-lbl">Twitter widget</div>
+    <div class="block_twitter">
+		<div id="js_side_tweets" class="tweets"></div>
+		
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery('#js_side_tweets').tweet({
+					username : 'WebLionMedia',
+					modpath : '/js/twitter/',
+					count : 2,
+					loading_text : 'Loading twitter feed...',
+					template : '{user} {text}{time}'
+				});
+			});
+		</script>
+	</div>
+    <!-- \\ twitter end \\ -->
+  </div>
+</div>
+<!-- \\ left col \\ -->
+
+<!-- \\\center col\\\ -->
+<div class="center-col">
+  <div class="center-col-b">
+    <div class="padding">
+      <div class="main-content">
+      
+        <div class="main-content-a">
+          <!-- // page header start // --> 
+          <div class="page-header">
+            <div class="page-header-date">Monday 25th 2013</div>
+            <div class="page-header-search">
+              <input type="text" value="Search" />
+              <input type="submit" value="" />
+              <div class="clear"></div>
+            </div>
+            <div class="page-header-subscribe">
+              <span>Subscribe</span>
+              <a href="#" class="subscribe-twitter"></a>
+              <a href="#" class="subscribe-facebook"></a>
+              <a href="#" class="subscribe-pinterest"></a>
+              <a href="#" class="subscribe-googleplus"></a>
+              <a href="#" class="subscribe-instagram"></a>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <!-- \\ page header end \\ -->
+
+          <div class="page-heading">
+            <div class="label-a">About Author</div>
+            <div class="breadcrumbs">
+              <a href="index-2.html">Home</a> &rarr; <span>About Author</span>
+            </div>
+            <div class="clear"></div>
+          </div>
+          
+          <!-- // category content start // -->
+          <div class="category-page">
+            
+            <div class="category-left">
+            
+            <div class="page-author">
+              <a href="#" class="page-author-pic"><img src="img/userpic-01.jpg" alt="" /></a>
+              <div class="page-author-about">
+                <div class="page-author-lbl">
+                  <a href="#">Stiven Rojers</a>
+                </div>
+                <div class="page-author-info">
+                  <div class="page-author-info-a"><span>16</span> Posts</div>
+                  <div class="page-author-info-a"><span>8</span> Comments</div>                
+                </div>
+                <div class="page-author-txt">
+                  Eaque ipsa quae ab illo inventore. Veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                </div>
+                <div class="page-author-social">
+                  <a href="#">Twitter</a>
+                  <a href="#">Facebook</a>
+                  <a href="#">Google+</a>
+                </div>
+              </div>
+              <div class="clear"></div> 
+             </div>
+             
+              <div class="page-devider"></div>
+
+              <!-- // articles row start // -->
+              <div class="articles-row equal-heights">
+                <!-- // -->
+                <div class="articles-post">
+                  <div class="article-category">
+                    <a href="#">Fashion</a> - 27.05.2013
+                    <a href="#" class="post-info post-comments">22</a>
+                    <a href="#" class="post-info post-likes">12</a>
+                  </div>
+                  <a href="#" class="article-image"><img src="img/article-author-1.jpg" alt="" /></a>
+                  <div class="article-title"><a href="#">Sed ut perspiciatis unde omnis iste natus volup.</a></div>
+                  <div class="article-text">Aperiam, aeque ab illo.</div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="articles-post">
+                  <div class="article-category">
+                    <a href="#">Fashion</a> - 27.05.2013
+                    <a href="#" class="post-info post-comments">22</a>
+                    <a href="#" class="post-info post-likes">12</a>
+                  </div>
+                  <div class="article-slider">
+                    <div class="article-slider-a">
+                      <span class="article-image"><img src="img/article-author-3-1.jpg" alt="" /></span>
+                      <span class="article-image"><img src="img/article-author-3-2.jpg" alt="" /></span>
+                    </div>
+                  </div>
+                  <div class="article-title"><a href="#">Sed ut perspiciatis unde omnis iste natus volup.</a></div>
+                  <div class="article-text">Aperiam, aeque ab illo.</div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="articles-post">
+                  <div class="article-category">
+                    <a href="#">Fashion</a> - 27.05.2013
+                    <a href="#" class="post-info post-comments">22</a>
+                    <a href="#" class="post-info post-likes">12</a>
+                  </div>
+                  <a href="#" class="article-image"><img src="img/article-author-5.jpg" alt="" /></a>
+                  <div class="article-title"><a href="#">Sed ut perspiciatis unde omnis iste natus volup.</a></div>
+                  <div class="article-text">Aperiam, aeque ab illo.</div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="articles-post">
+                  <div class="article-category">
+                    <a href="#">Fashion</a> - 27.05.2013
+                    <a href="#" class="post-info post-comments">22</a>
+                    <a href="#" class="post-info post-likes">12</a>
+                  </div>
+                  <a href="#" class="article-image"><img src="img/article-author-7.jpg" alt="" /></a>
+                  <div class="article-title"><a href="#">Sed ut perspiciatis unde omnis iste natus volup.</a></div>
+                  <div class="article-text">Aperiam, aeque ab illo.</div>
+                </div>
+                <!-- \\ -->
+              </div>
+    
+              <div class="articles-row equal-heights nth-row">
+                <!-- // -->
+                <div class="articles-post">
+                  <div class="article-category">
+                    <a href="#">Fashion</a> - 27.05.2013
+                    <a href="#" class="post-info post-comments">22</a>
+                    <a href="#" class="post-info post-likes">12</a>
+                  </div>
+                  <a href="#" class="article-image"><img src="img/article-author-2.jpg" alt="" /></a>
+                  <div class="article-title"><a href="#">Vitae dicta sunt explicabo emo enim ipsam voluptatem.</a></div>
+                  <div class="article-text">Totam rem aperiam, eaque ipsa quae.</div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="articles-post">
+                  <div class="article-category">
+                    <a href="#">Fashion</a> - 27.05.2013
+                    <a href="#" class="post-info post-comments">22</a>
+                    <a href="#" class="post-info post-likes">12</a>
+                  </div>
+                  <a href="#" class="article-image"><img src="img/article-author-4.jpg" alt="" /></a>
+                  <div class="article-title"><a href="#">Sed ut perspiciatis unde omnis iste natus volup.</a></div>
+                  <div class="article-text">Aperiam, aeque ab illo.</div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="articles-post">
+                  <div class="article-category">
+                    <a href="#">Fashion</a> - 27.05.2013
+                    <a href="#" class="post-info post-comments">22</a>
+                    <a href="#" class="post-info post-likes">12</a>
+                  </div>
+                  <div class="article-slider">
+                    <div class="article-slider-a">
+                      <span class="article-image"><img src="img/article-author-6-1.jpg" alt="" /></span>
+                      <span class="article-image"><img src="img/article-author-6-2.jpg" alt="" /></span>
+                      <span class="article-image"><img src="img/article-author-6-3.jpg" alt="" /></span>
+                    </div>
+                  </div>
+                  <div class="article-title"><a href="#">Sed ut perspiciatis unde omnis iste natus volup.</a></div>
+                  <div class="article-text">Aperiam, aeque ab illo.</div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="articles-post">
+                  <div class="article-category">
+                    <a href="#">Fashion</a> - 27.05.2013
+                    <a href="#" class="post-info post-comments">22</a>
+                    <a href="#" class="post-info post-likes">12</a>
+                  </div>
+                  <a href="#" class="article-image"><img src="img/article-author-8.jpg" alt="" /></a>
+                  <div class="article-title"><a href="#">Sed ut perspiciatis unde omnis iste natus volup.</a></div>
+                  <div class="article-text">Aperiam, aeque ab illo.</div>
+                </div>
+                <!-- \\ -->
+
+              </div>
+              <!-- \\ articles row end \\ -->
+              <div class="clear"></div>
+              
+              <!-- // pagination start // --> 
+              <div class="pagination">
+                <div class="pagination-a">
+                  <!-- a class="pagination-ctrl pagination-prev" href="#"><i>Previous</i></a -->
+                  <a class="current" href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a class="pagination-ctrl pagination-next" href="#"><i>Next</i></a> 
+                </div>
+                <div class="pagination-b">Page 1 of 3</div>
+                <div class="clear"></div>
+              </div>
+              <!-- // pagination end // -->
+                            
+            </div>
+            
+            <div class="category-right">
+              <div class="articles-row nth-row">
+                <!-- // news block start // -->
+                <div class="mp-block">
+                  <div class="mp-block-lbl">Main News</div>  
+                  <div class="mp-block-content">
+                    <div class="mp-block-i">
+                      <span>22 Sep.</span> <a href="#">Sed ut perspiciatis unde omnis.</a>
+                    </div>
+                    <div class="mp-block-i">
+                      <span>18 Sep.</span> <a href="#">Voluptatum accusantium dolore laudat totem.</a>
+                    </div>
+                    <div class="mp-block-i">
+                      <span>18 Sep.</span> <a href="#">Dolore laudant totam rem aperiam eaque.</a>
+                    </div>
+                    <div class="mp-block-i">
+                      <span>16 Sep.</span> <a href="#">Inventore veritatis et quasi.</a>
+                    </div> 
+                    <div class="mp-block-i">
+                      <span>13 Sep.</span> <a href="#">Beatae vitae dicta sunt explicabo. Nemo enim ipsam.</a>
+                    </div>    
+                  </div>
+                </div>
+                <!-- \\ news block end \\ -->
+                
+                <a href="#" class="sidebar-promo">
+                  <img src="img/sidebar-promo.jpg" alt="" />
+                </a>
+                
+                <!-- // latest reviews start // -->
+                <div class="side-block">
+                  <div class="side-block-lbl">Latest reviews</div>
+                  <div class="sidebar-reviews">
+                    <!-- // -->
+                    <div class="per-item animated">
+                      <div class="per-item-a">
+                        <div class="per-item-lbl">New iOS review</div>
+                        <div class="per-item-value"><span class="per-item-data">79</span>%</div>
+                        <div class="clear"></div>
+                      </div>
+                      <div class="per-item-b">
+                        <div class="per-item-b-value"></div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                    <!-- \\ -->
+                    <!-- // -->
+                    <div class="per-item animated">
+                      <div class="per-item-a">
+                        <div class="per-item-lbl">New macbook pro</div>
+                        <div class="per-item-value"><span class="per-item-data">60</span>%</div>
+                        <div class="clear"></div>
+                      </div>
+                      <div class="per-item-b">
+                        <div class="per-item-b-value"></div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                    <!-- \\ -->
+                    <!-- // -->
+                    <div class="per-item animated">
+                      <div class="per-item-a">
+                        <div class="per-item-lbl">The last of us</div>
+                        <div class="per-item-value"><span class="per-item-data">90</span>%</div>
+                        <div class="clear"></div>
+                      </div>
+                      <div class="per-item-b">
+                        <div class="per-item-b-value"></div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                    <!-- \\ -->
+                  </div>
+                </div>
+                <!-- \\ latest reviews end \\ -->
+                
+                <!-- // most commented start // -->
+                <div class="side-block">
+                  <div class="side-block-lbl">Most commented</div>
+                  <div class="most-commented-row">
+                    <!-- // -->
+                    <div class="most-commented-item">
+                      <div class="most-commented-l">
+                        <a href="#">Quae ab illo inventore veritatis et quasi.</a>
+                      </div>
+                      <div class="most-commented-r">12 <span class="most-commented-c"></span></div>
+                      <div class="clear"></div>
+                    </div>
+                    <!-- \\ -->
+                    <!-- // -->
+                    <div class="most-commented-item">
+                      <div class="most-commented-l">
+                        <a href="#">Dolores eos qui retione.</a>
+                      </div>
+                      <div class="most-commented-r">8 <span class="most-commented-c"></span></div>
+                      <div class="clear"></div>
+                    </div>
+                    <!-- \\ -->
+                    <!-- // -->
+                    <div class="most-commented-item">
+                      <div class="most-commented-l">
+                        <a href="#">Kuisquam est, qui dolorem ipsum quia dolor sit.</a>
+                      </div>
+                      <div class="most-commented-r">7 <span class="most-commented-c"></span></div>
+                      <div class="clear"></div>        
+                    </div>
+                    <!-- \\ -->
+                  </div>
+                </div>
+                <!-- \\ most commented end \\ -->
+                
+                <!-- // latest comments start // -->
+                <div class="side-block">
+                  <div class="side-block-lbl">Latest comments</div>
+                  <div class="latest-comments-row">
+                    <!-- // -->
+                    <div class="latest-comments-i">
+                      <div class="latest-comments-l">1</div>
+                      <div class="latest-comments-r">
+                        <div class="latest-comments-user">Stiven Fox</div>
+                        <a href="#" class="latest-comments-lbl">Gallery post</a>
+                      </div>
+                      <div class="clear"></div>
+                      <div class="latest-comments-txt">
+                        <span class="latest-comments-arrow"></span>
+                        Sed ut perspiciatis unde omnis iste natus volup. Aperiam, aeque ab illo.
+                      </div>
+                    </div>
+                    <!-- \\ -->
+                    <!-- // -->
+                    <div class="latest-comments-i">
+                      <div class="latest-comments-l">2</div>
+                      <div class="latest-comments-r">
+                        <div class="latest-comments-user">Robert Simmonss</div>
+                        <a href="#" class="latest-comments-lbl">Modify post format</a>
+                      </div>
+                      <div class="clear"></div>
+                      <div class="latest-comments-txt">
+                        <span class="latest-comments-arrow"></span>
+                        Sed ut perspiciatis unde omnis iste natus volup. Aperiam, aeque ab illo.
+                      </div>
+                    </div>
+                    <!-- \\ -->
+                  </div>
+                </div>
+                <!-- \\ latest comments end \\ -->
+                
+                <!-- // tags cloud start // -->
+                <div class="side-block">
+                  <div class="side-block-lbl">Tags cloud</div>
+                  <div class="tags-row">
+                    <a href="#">News</a>
+                    <a href="#">Latest</a>
+                    <a href="#">People</a>
+                    <a href="#">Creative</a>
+                    <a href="#">Apple</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Photography</a>
+                  </div>
+                </div>
+                <!-- \\ tags cloud end \\ -->
+                 
+              </div>
+              <!-- \\ articles row end \\ -->
+              <div class="clear"></div>            
+            </div>
+            <div class="clear"></div>
+          </div>
+          <!-- // category content end // -->
+          
+        </div>
+        
+        <!-- // content footer start // -->
+        <div class="content-footer">
+          <div class="content-footer-a">
+            <div class="content-footer-l">
+              <div class="content-footer-lbl">About the mag</div>
+              <div class="content-footer-txt"><b>RoyalNews</b> is your news, entertainment, inspiration, fashion website. We provide you with the lates news and videos straight from the news industry.</div>
+              <div class="content-footer-subscribe">
+                <a href="#" class="subscribe-twitter"></a>
+                <a href="#" class="subscribe-facebook"></a>
+                <a href="#" class="subscribe-pinterest"></a>
+                <a href="#" class="subscribe-googleplus"></a>
+                <a href="#" class="subscribe-instagram"></a>              
+              </div>            
+            </div>
+            <div class="content-footer-c">
+              <div class="content-footer-lbl">Featured posts</div>
+              <div class="featured-row">
+                <!-- // -->
+                <div class="featured-i">
+                  <div class="featured-l">
+                    <a href="#"><img src="img/featured-01.jpg" alt="" /></a>
+                  </div>
+                  <div class="featured-r">
+                    <a href="#">Neque porro quisquam est, qui dolorem.</a>
+                    <span class="featured-date">27.05.2013</span>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="featured-i">
+                  <div class="featured-l">
+                    <a href="#"><img src="img/featured-02.jpg" alt="" /></a>
+                  </div>
+                  <div class="featured-r">
+                    <a href="#">Qsit amet, consectetur, adipisci.</a>
+                    <span class="featured-date">27.05.2013</span>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+                <!-- // -->
+                <div class="featured-i">
+                  <div class="featured-l">
+                    <a href="#"><img src="img/featured-03.jpg" alt="" /></a>
+                  </div>
+                  <div class="featured-r">
+                    <a href="#">Sed quia non numquam eius modi tempora.</a>
+                    <span class="featured-date">27.05.2013</span>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- \\ -->
+              </div> 
+            </div>
+            <div class="content-footer-r">
+              <div class="content-footer-lbl">Newsletter</div>
+              <div class="content-footer-txt">Sign up for our mailing list to stay updated latest news from RoyalNews</div>
+              <div class="newsletter">
+                <input type="text" value="ENTER YOUR EMAIL" />
+                <button>SUBSCRIBE</button>
+              </div>
+            </div>
+            <div class="clear"></div> 
+          </div>
+        </div>
+        
+        <div class="content-footer-d">
+          <div class="footer-copy-l">&copy; Copyrights 2013. Powered by Wordpress</div>
+          <div class="footer-copy-r">
+            <a href="#"><img src="img/footer-logo.gif" alt="" /></a>          
+            <span>Theme by weblionmedia</span>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <!-- \\ content footer end \\ -->
+                
+      </div>
+      
+      <!-- // right-coll start // -->
+      <div class="right-coll">
+        <div class="page-lbl">Recent news</div>
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-01.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Fashion</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Neque porro quisquam est qui dolo.</a></div>
+          </div>
+        <!-- \\ -->
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-02.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Life</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Vitae dicta sunt expli- cabo emo.</a></div>
+          </div>
+        <!-- \\ -->
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-03.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Fashion</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Magni dolores eos qui retione.</a></div>
+          </div>
+        <!-- \\ -->
+        <!-- // -->
+          <div class="recent-item">
+            <a href="#" class="recent-img"><img src="img/recent-04.jpg" alt="" /></a>
+            <div class="recent-category"><a href="#">Main news</a> - 27.05.2013</div>
+            <div class="recent-title"><a href="#">Aspernatur aut odit aut fugit, sed quia.</a></div>
+          </div>
+        <!-- \\ -->
+      </div>
+      <!-- // right-coll end // -->
+      
+      <div class="clear"></div>
+      
+    </div>
+  </div>
+  <br class="clear" />
+</div>
+<!-- ///center col/// -->
+
+</div>
+<!-- /conteiner1 -->
+
+  <br class="clear none" />
+</div>
+<!-- /main-cont -->
+
+
+</body>  
+</html> 
